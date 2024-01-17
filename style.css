@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: gray; */
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.color {
+    position: relative;
+    left: 320px;
+    top: -60px;
+    width: 90px;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+p {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+#password {
+    width: 450px;
+    height: 37px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid green;
+    border-radius: 2px;
+    padding: 5px 12px 5px 12px;
+    font-size: 20px;
+}
+
+#password-length{
+    width: 350px;
+}
+
+button {
+    width: 120px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 12px 12px;
+}
+.opcoes {
+    font-size: 15px;
+    margin: 3px;
+    width: 90px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.opcoes:hover {
+    background-color: #ccc;
+    border: 1px solid #5f5f5f;
+}
+.botao {
+    width: 130px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-size: 17px;
+    padding: 7px 2px 7px 2px;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: #ccc;
+    border: 1px solid #5f5f5f;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
